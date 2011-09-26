@@ -1,13 +1,21 @@
 <phpunit bootstrap="./application/bootstrap.php">
+<php>
+	<var name="DB_DSN" value="sqlite:C:\www\gamesandcode\tests\data\test.db" />
+	<var name="DB_DBNAME" value="gamesandcode" />
+	<var name="DATASET_PATH" value="C:\www\gamesandcode\tests\datasets" />
+</php>
 <testsuites> 
-        <testsuite name="Controller Test Suite"> 
-                <directory>./application/controllers</directory> 
-        </testsuite> 
-        <testsuite name="Model Test Suite"> 
-                <directory>./application/models</directory> 
-        </testsuite> 
-        <testsuite name="Non-categorised Test Suite"> 
-                <directory>./application/</directory> 
-        </testsuite> 
+	<testsuite name="Controller Test Suite"> 
+	        <directory>./application/controllers</directory> 
+	</testsuite> 
+	<testsuite name="Model Test Suite"> 
+	        <directory>./application/models</directory> 
+	</testsuite> 
+	<testsuite name="Non-categorised Test Suite"> 
+	        <directory>./application/</directory> 
+	</testsuite> 
+	<testsuite name="Entity Test Suite"> 
+	        <directory>./library/GC/Entity</directory> 
+	</testsuite> 
 </testsuites> 
 </phpunit>

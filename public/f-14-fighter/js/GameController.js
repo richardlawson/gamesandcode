@@ -294,7 +294,7 @@ function GameController(){
 		$("#info-screen").hide();
 		gameOver = false;
 	}
-
+	
 	function resetMovingGameObjects(){
 		ship.reset();
 		rockets.destroyAndRemoveAll();

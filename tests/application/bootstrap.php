@@ -16,4 +16,5 @@ set_include_path(implode(PATH_SEPARATOR, array(
 )));
 
 require_once 'Zend/Application.php';
+require_once 'EntityCase.php';
 

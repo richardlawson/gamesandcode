@@ -2,6 +2,16 @@
 	font-size:70%;
 }
 
+#gamer-info{
+	width:992px;
+	float:left; 
+	margin-bottom:7px;
+}
+
+#high-score-panel{
+	
+}
+
 #canvas{
 	position:relative;
 	float:left;
@@ -60,29 +70,8 @@
 	right:0;
 }
 
-#info-screen{
-	position:absolute;
-	text-align:center;
-	width:500px;
-	left:245px;
-	color:#fff;
-	font-size:30px;
-	z-index:2000;
-	top:100px;
-}
-
 #score-panel{
 	padding-top:10px;
-}
-
-#info-screen a{
-	font-size:20px;
-	color:#fff;
-	text-decoration:none;
-}
-
-#info-screen a:hover{
-	color:#333;
 }
 
 #start-button{
@@ -113,6 +102,99 @@
 	position:absolute;
 	bottom:5px;
 	left:5px;
+}
+
+#info-screen{
+	position:absolute;
+	text-align:center;
+	width:500px;
+	left:245px;
+	color:#fff;
+	font-size:30px;
+	z-index:2000;
+	top:70px;
+}
+
+#info-screen a{
+	font-size:20px;
+	color:#fff;
+	text-decoration:none;
+}
+
+#info-screen a:hover{
+	color:#333;
+}
+
+#scoreform .charfield{
+	font-size:25px;
+	height:40px;
+	padding-top:2px;
+	padding-bottom:2px;
+	width:30px;
+	align:center;
+	background:none;
+	border: none;
+	border-bottom: 3px solid #fff;
+	color:#fff;
+	padding-left:10px;
+}
+
+#scoreform .submit{
+	font-size:20px;
+	margin-left:50px;
+	margin-top:15px;
+	width: 130px;
+}
+
+#scoreform label{
+	font-size:18px;
+}
+
+#saving-panel{
+	display:none;
+	position:absolute;
+	color:#000;
+	left:0px;
+	top:0px;
+	width:990px;
+	height:455px;
+	background-color:#000;
+	border:1px solid #000;
+	/* for IE */
+  	filter:alpha(opacity=65);
+  	/* CSS3 standard */
+ 	opacity:0.65;
+	z-index: 2000;
+}
+
+#saving-dialogue{
+	display:none;
+	position:absolute;
+	top: 100px;
+	left: 370px;
+	width:250px;
+	height:90px;
+	padding-top:60px;
+	background: #c5c5c5;
+	border: 1px solid #000;
+	text-align: center;
+	align:center;
+	z-index: 2001;
+}
+
+.high-score-table{
+	width:100%;
+	font-size:18px;
+	text-align:left;
+	margin-top:5px;
+}
+
+.high-score-table th{
+	width:90%;
+	font-size:20px;
+	font-weight:normal;
+	height: 40px;
+	border-bottom: 1px dotted #fff;
 }
 
 #dashboard{
