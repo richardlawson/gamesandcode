@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<dataset>
+    <scores id="1" handle="RIC" points="100" gamer_id="1"/>
+    <scores id="2" handle="ACE" points="140" gamer_id="1"/>
+</dataset>

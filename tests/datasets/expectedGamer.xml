@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<dataset>
+    <gamers id="1" name="richard law" facebookId="123456789" />
+    <gamers id="2" name="Richard Lawson" facebookId="1234" />
+</dataset>
