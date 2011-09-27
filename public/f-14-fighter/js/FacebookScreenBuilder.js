@@ -70,7 +70,8 @@ function ScreenBuilder(screenElement, gameController){
 		scoreForm.submit(function(event){
 	    	// stop form from submitting normally 
 	    	event.preventDefault();
-	    	var url = 'http://gamesandcode.localhost/facebook/save/';
+	    	//var url = 'http://gamesandcode.localhost/facebook/save/';
+	    	var url = 'http://www.gamesandcode.co.uk/facebook/save/';
 	    	// get form data 
 	    	var $form = $(this);
 	    	$('input[type=submit]').attr('disabled', 'disabled');
