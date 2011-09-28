@@ -10,7 +10,7 @@ class FacebookController extends Zend_Controller_Action
     public function init(){
         $registry = Zend_Registry::getInstance();
         $this->_em = $registry->em;
-        $this->_facebook = $facebook = new Facebook(array(
+        $this->_facebook = new Facebook(array(
 			'appId'  => $registry->facebookProperties['appId'],
 			'secret' => $registry->facebookProperties['secret'],
 			));
